@@ -66,7 +66,7 @@ mean<-feature[grep("mean",feature$V2),]
 std<-feature[grep("std",feature$V2),]
 
 #merge mean and std
-mean.std(mean,std)
+mean.std<-rbind(mean,std)
 
 #get index for mean and std
 ind<-sort(unique(mean.std[,1]))
