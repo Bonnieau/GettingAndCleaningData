@@ -76,8 +76,9 @@ x.meanstd<-x.set[,ind]
 
 #get measurement label
 feature.name<-feature[ind,2]
-#clear the measurement label take () out 
+#clear the measurement label take () out and up case the names
 feature.name<-gsub("\\(|\\)","",feature.name)
+feature.name<-toupper(feature.name)
 
 #label the measurement data
 names(x.meanstd)<-feature.name
