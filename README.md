@@ -11,6 +11,6 @@ Repo for coursera "Getting and Cleaning Data" project
  3. Set "UCI HAR Dataset" directory as working directory for R.
  4. Copy run_analysis.R into R working directory
  5. Source("run_analysis.R") in R
- 6. Run "run_analysis.R"
- 7. It will produce tidy_dataset.txt in the working directory
- 8. To use "tidy_dataset.txt", import it use read.table("tidy_dataset.txt"). It will produce data frame contains 180 rows and 80 columns.
+ 6. It will produce tidy_dataset.txt in the working directory
+ 7. To use "tidy_dataset.txt", import it use read.table("tidy_dataset.txt"). It will produce data frame contains 180 rows and 80 columns.
+ 8. Check on tidy dataset in R, there are 180 rows and 80 columns.
